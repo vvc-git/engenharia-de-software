@@ -54,7 +54,7 @@ class GUI(DogPlayerInterface):
 
     def __build_main_window(self):
         self._main_window.title("Sequência")
-        self._main_window.geometry("1600x900")
+        self._main_window.geometry("1920x1080")
         self._main_window.resizable(False, False)
         self._main_window["bg"] = "darkblue"
 
